@@ -1,8 +1,11 @@
+function MaxWin()
+	silent !wmctrl -r :ACTIVE -b add,maximized_vert,maximized_horz
+endfunction
 syntax on
 set hlsearch
 set nu
-set autoindent shiftwidth=8
-set cindent shiftwidth=8
+set autoindent shiftwidth=4
+set cindent shiftwidth=4
 let g:winManagerWindowLayout = 'FileExplorer|TagList'
 let Tlst_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
